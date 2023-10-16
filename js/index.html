@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piedra, papel o tijera</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body class="contaier">
+    <!-- Encabezado -->
+    <header class="container__header">
+      <h1 split-by="title" letter-animation="breath">Piedra, Papel o Tijera</h1>
+    </header>
+
+    <!-- Contenedor principal -->
+    <main class="container__main">
+      <!-- Sección del jugador -->
+      <section class="main__player">
+        <h2>Jugador</h2>
+        <div class="options">
+          <button class="button" id="player__option--rock">Piedra</button>
+          <button class="button" id="player__option--papel">Papel</button>
+          <button class="button" id="player__option--tijera">Tijera</button>
+        </div>
+      </section>
+
+      <!-- Sección de la máquina -->
+      <section class="main__machine">
+        <h2>Máquina</h2>
+        <div class="options">
+          <button class="button" id="machine__option--roca">Piedra</button>
+          <button class="button" id="machine__option--papel">Papel</button>
+          <button class="button" id="machine__option--tijera">Tijera</button>
+        </div>
+      </section>
+
+      <!-- Sección de resultados -->
+      <section class="main__results">
+        <h2 class="resultados" id="resultados">Resultados</h2>
+        <p class="player" id="player">Usuario</p>
+        <p class="machine" id="machine">Máquina</p>
+      </section>
+    </main>
+
+    <!-- Archivos JavaScript -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
